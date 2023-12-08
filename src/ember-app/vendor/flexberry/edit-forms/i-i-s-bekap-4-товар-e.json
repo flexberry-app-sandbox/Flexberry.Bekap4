@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Товар",
+  "name": "IISBekap_4ТоварE",
+  "className": "ТоварE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-bekap-4-товар",
+      "modelProjection": "ТоварE"
+    }
+  ]
+}

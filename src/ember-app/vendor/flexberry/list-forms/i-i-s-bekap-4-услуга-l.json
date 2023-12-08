@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-bekap-4-услуга-e",
+  "editForm": "i-i-s-bekap-4-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISBekap_4УслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-bekap-4-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}

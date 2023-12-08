@@ -1,0 +1,183 @@
+﻿{
+  "name": "IISBekap_4Визит",
+  "modelName": "i-i-s-bekap-4-визит",
+  "className": "Визит",
+  "nameSpace": "IIS.Bekap_4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаВизита",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодВизита",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "конецСеанса",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "началоСеанса",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиент",
+      "relatedTo": "i-i-s-bekap-4-клиент",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "записьВизита",
+      "relatedTo": "i-i-s-bekap-4-запись-визита",
+      "inverse": "визит"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ВизитE",
+      "modelName": "i-i-s-bekap-4-визит",
+      "attrs": [
+        {
+          "name": "кодВизита",
+          "caption": "Код визита",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "началоСеанса",
+          "caption": "Начало сеанса",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "конецСеанса",
+          "caption": "Конец сеанса",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "датаВизита",
+          "caption": "Дата визита",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Клиент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Клиент",
+          "name": "клиент",
+          "relatedTo": "i-i-s-bekap-4-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ЗаписьВизитаE",
+          "caption": "Табличная часть. Состав визита",
+          "name": "записьВизита",
+          "relatedTo": "i-i-s-bekap-4-запись-визита",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ВизитL",
+      "modelName": "i-i-s-bekap-4-визит",
+      "attrs": [
+        {
+          "name": "кодВизита",
+          "caption": "Код визита",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "началоСеанса",
+          "caption": "Начало сеанса",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "конецСеанса",
+          "caption": "Конец сеанса",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "датаВизита",
+          "caption": "Дата визита",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "клиент",
+          "relatedTo": "i-i-s-bekap-4-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
