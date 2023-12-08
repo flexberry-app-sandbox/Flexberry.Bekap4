@@ -32,8 +32,8 @@ namespace IIS.Bekap_4
     [View("СоставУслугиE", new string[] {
             "Единицы as \'Единицы\'",
             "Количество as \'Количество\'",
-            "Товар as \'Товар\'",
-            "Товар.Наименование"})]
+            "Товар as \'Производитель\'",
+            "Товар.Наименование as \'Материал\'"})]
     [MasterViewDefineAttribute("СоставУслугиE", "Товар", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Производитель")]
     public class СоставУслуги : ICSSoft.STORMNET.DataObject
     {

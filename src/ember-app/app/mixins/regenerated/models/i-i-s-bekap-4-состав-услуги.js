@@ -44,8 +44,8 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СоставУслугиE', 'i-i-s-bekap-4-состав-услуги', {
     единицы: attr('Единицы', { index: 0 }),
     количество: attr('Количество', { index: 1 }),
-    товар: belongsTo('i-i-s-bekap-4-товар', 'Товар', {
-      наименование: attr('', { index: 3 })
+    товар: belongsTo('i-i-s-bekap-4-товар', 'Производитель', {
+      наименование: attr('Материал', { index: 3 })
     }, { index: 2, displayMemberPath: 'производитель' })
   });
 };

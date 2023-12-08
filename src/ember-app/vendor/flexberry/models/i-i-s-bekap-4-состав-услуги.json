@@ -70,14 +70,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "",
+              "caption": "Материал",
               "hidden": false,
               "index": 3
             }
           ],
           "index": 2,
           "type": "standard",
-          "caption": "Товар",
+          "caption": "Производитель",
           "name": "товар",
           "relatedTo": "i-i-s-bekap-4-товар",
           "inverse": null
