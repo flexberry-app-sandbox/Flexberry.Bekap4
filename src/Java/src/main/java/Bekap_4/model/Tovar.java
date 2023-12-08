@@ -21,14 +21,14 @@ public class Tovar {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
-    @Column(name = "Производитель")
-    private String производитель;
+    @Column(name = "Наименование")
+    private String наименование;
 
     @Column(name = "КодМатериала")
     private Integer кодматериала;
 
-    @Column(name = "Наименование")
-    private String наименование;
+    @Column(name = "Производитель")
+    private String производитель;
 
 
     public Tovar() {
@@ -43,12 +43,12 @@ public class Tovar {
         return primarykey;
     }
 
-    public String getПроизводитель() {
-      return производитель;
+    public String getНаименование() {
+      return наименование;
     }
 
-    public void setПроизводитель(String производитель) {
-      this.производитель = производитель;
+    public void setНаименование(String наименование) {
+      this.наименование = наименование;
     }
 
     public Integer getКодМатериала() {
@@ -59,12 +59,12 @@ public class Tovar {
       this.кодматериала = кодматериала;
     }
 
-    public String getНаименование() {
-      return наименование;
+    public String getПроизводитель() {
+      return производитель;
     }
 
-    public void setНаименование(String наименование) {
-      this.наименование = наименование;
+    public void setПроизводитель(String производитель) {
+      this.производитель = производитель;
     }
 
 

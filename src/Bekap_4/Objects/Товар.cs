@@ -39,11 +39,11 @@ namespace IIS.Bekap_4
     public class Товар : ICSSoft.STORMNET.DataObject
     {
         
-        private string fПроизводитель;
+        private string fНаименование;
         
         private int fКодМатериала;
         
-        private string fНаименование;
+        private string fПроизводитель;
         
         // *** Start programmer edit section *** (Товар CustomMembers)
 
