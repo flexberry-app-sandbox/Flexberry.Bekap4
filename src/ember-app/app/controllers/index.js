@@ -22,7 +22,7 @@ export default Controller.extend({
             link: 'i-i-s-bekap-4-услуга-l',
             caption: i18n.t('forms.application.sitemap.справочник-услуги.i-i-s-bekap-4-услуга-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-услуги.i-i-s-bekap-4-услуга-l.title'),
-            icon: 'chart line',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -34,7 +34,7 @@ export default Controller.extend({
             link: 'i-i-s-bekap-4-визит-l',
             caption: i18n.t('forms.application.sitemap.запись-на-визит.i-i-s-bekap-4-визит-l.caption'),
             title: i18n.t('forms.application.sitemap.запись-на-визит.i-i-s-bekap-4-визит-l.title'),
-            icon: 'calendar',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -46,12 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-bekap-4-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.справочник-сотрудники.i-i-s-bekap-4-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-сотрудники.i-i-s-bekap-4-сотрудник-l.title'),
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-bekap-4-должности-l',
             caption: i18n.t('forms.application.sitemap.справочник-сотрудники.i-i-s-bekap-4-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-сотрудники.i-i-s-bekap-4-должности-l.title'),
-            icon: 'list',
+            icon: 'phone',
             children: null
           }]
         }, {
@@ -63,7 +64,7 @@ export default Controller.extend({
             link: 'i-i-s-bekap-4-клиент-l',
             caption: i18n.t('forms.application.sitemap.справочник-клиенты.i-i-s-bekap-4-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-клиенты.i-i-s-bekap-4-клиент-l.title'),
-            icon: 'briefcase',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -75,6 +76,7 @@ export default Controller.extend({
             link: 'i-i-s-bekap-4-товар-l',
             caption: i18n.t('forms.application.sitemap.справочник-товары.i-i-s-bekap-4-товар-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-товары.i-i-s-bekap-4-товар-l.title'),
+            icon: 'paperclip',
             children: null
           }]
         }

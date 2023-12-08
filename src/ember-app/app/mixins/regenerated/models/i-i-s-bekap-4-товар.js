@@ -34,14 +34,14 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТоварE', 'i-i-s-bekap-4-товар', {
-    наименование: attr('Наименование', { index: 0 }),
+    наименование: attr('Производитель', { index: 0 }),
     кодМатериала: attr('Код материала', { index: 1 }),
-    производитель: attr('Производитель', { index: 2 })
+    производитель: attr('Наименование', { index: 2 })
   });
 
   modelClass.defineProjection('ТоварL', 'i-i-s-bekap-4-товар', {
-    наименование: attr('Наименование', { index: 0 }),
+    наименование: attr('Производитель', { index: 0 }),
     кодМатериала: attr('Код материала', { index: 1 }),
-    производитель: attr('Производитель', { index: 2 })
+    производитель: attr('Наименование', { index: 2 })
   });
 };
