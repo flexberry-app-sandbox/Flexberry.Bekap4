@@ -59,7 +59,7 @@ export let defineProjections = function (modelClass) {
       единицы: attr('Единицы', { index: 0 }),
       количество: attr('Количество', { index: 1 }),
       товар: belongsTo('i-i-s-bekap-4-товар', 'Товар', {
-        производитель: attr('Производитель', { index: 3, hidden: true })
+        наименование: attr('', { index: 3 })
       }, { index: 2, displayMemberPath: 'производитель' })
     })
   });

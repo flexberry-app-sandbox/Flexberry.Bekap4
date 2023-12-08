@@ -30,21 +30,21 @@ namespace IIS.Bekap_4
     [Caption("Сотрудник")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("сотрудникE", new string[] {
-            "Пол as \'Пол\'",
             "ФИО as \'ФИО\'",
             "КодСотрудника as \'Код сотрудника\'",
             "ДатаРождения as \'Дата рождения\'",
             "НомерТелефона as \'Номер телефона\'",
             "Должности as \'Должности\'",
+            "Пол as \'Пол\'",
             "Должности.Должность as \'Должность\'"}, Hidden=new string[] {
             "Должности.Должность"})]
     [MasterViewDefineAttribute("сотрудникE", "Должности", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Должность")]
     [View("сотрудникL", new string[] {
-            "Пол as \'Пол\'",
             "ФИО as \'ФИО\'",
             "КодСотрудника as \'Код сотрудника\'",
             "ДатаРождения as \'Дата рождения\'",
             "НомерТелефона as \'Номер телефона\'",
+            "Пол as \'Пол\'",
             "Должности.Должность as \'Должность\'"})]
     public class сотрудник : ICSSoft.STORMNET.DataObject
     {

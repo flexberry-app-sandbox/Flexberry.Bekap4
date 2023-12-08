@@ -42,8 +42,8 @@
       "modelName": "i-i-s-bekap-4-товар",
       "attrs": [
         {
-          "name": "производитель",
-          "caption": "Производитель",
+          "name": "наименование",
+          "caption": "Наименование",
           "hidden": false,
           "index": 0
         },
@@ -54,8 +54,8 @@
           "index": 1
         },
         {
-          "name": "наименование",
-          "caption": "Наименование",
+          "name": "производитель",
+          "caption": "Производитель",
           "hidden": false,
           "index": 2
         }
@@ -68,8 +68,8 @@
       "modelName": "i-i-s-bekap-4-товар",
       "attrs": [
         {
-          "name": "производитель",
-          "caption": "Производитель",
+          "name": "наименование",
+          "caption": "Наименование",
           "hidden": false,
           "index": 0
         },
@@ -80,8 +80,8 @@
           "index": 1
         },
         {
-          "name": "наименование",
-          "caption": "Наименование",
+          "name": "производитель",
+          "caption": "Производитель",
           "hidden": false,
           "index": 2
         }

@@ -58,22 +58,22 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('сотрудникE', 'i-i-s-bekap-4-сотрудник', {
-    пол: attr('Пол', { index: 0 }),
-    фИО: attr('ФИО', { index: 1 }),
-    кодСотрудника: attr('Код сотрудника', { index: 2 }),
-    датаРождения: attr('Дата рождения', { index: 3 }),
-    номерТелефона: attr('Номер телефона', { index: 4 }),
+    фИО: attr('ФИО', { index: 0 }),
+    кодСотрудника: attr('Код сотрудника', { index: 1 }),
+    датаРождения: attr('Дата рождения', { index: 2 }),
+    номерТелефона: attr('Номер телефона', { index: 3 }),
+    пол: attr('Пол', { index: 5 }),
     должности: belongsTo('i-i-s-bekap-4-должности', 'Должности', {
       должность: attr('Должность', { index: 6, hidden: true })
-    }, { index: 5, displayMemberPath: 'должность' })
+    }, { index: 4, displayMemberPath: 'должность' })
   });
 
   modelClass.defineProjection('сотрудникL', 'i-i-s-bekap-4-сотрудник', {
-    пол: attr('Пол', { index: 0 }),
-    фИО: attr('ФИО', { index: 1 }),
-    кодСотрудника: attr('Код сотрудника', { index: 2 }),
-    датаРождения: attr('Дата рождения', { index: 3 }),
-    номерТелефона: attr('Номер телефона', { index: 4 }),
+    фИО: attr('ФИО', { index: 0 }),
+    кодСотрудника: attr('Код сотрудника', { index: 1 }),
+    датаРождения: attr('Дата рождения', { index: 2 }),
+    номерТелефона: attr('Номер телефона', { index: 3 }),
+    пол: attr('Пол', { index: 4 }),
     должности: belongsTo('i-i-s-bekap-4-должности', 'Должность', {
       должность: attr('Должность', { index: 5 })
     }, { index: -1, hidden: true })
