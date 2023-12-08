@@ -122,6 +122,10 @@ $.extend(true, translations, {
           'i-i-s-bekap-4-сотрудник-l': {
             caption: 'сотрудник',
             title: 'Сотрудник'
+          },
+          'i-i-s-bekap-4-должности-l': {
+            caption: 'Должности',
+            title: 'Должности'
           }
         },
         'справочник-клиенты': {
@@ -130,6 +134,14 @@ $.extend(true, translations, {
           'i-i-s-bekap-4-клиент-l': {
             caption: 'Клиент',
             title: 'Клиент'
+          }
+        },
+        'справочник-товары': {
+          caption: 'Справочник товары',
+          title: 'Справочник товары',
+          'i-i-s-bekap-4-товар-l': {
+            caption: 'Товар',
+            title: 'Товар'
           }
         }
       }

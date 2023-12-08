@@ -44,6 +44,13 @@
           "caption": "сотрудник",
           "title": "Сотрудник",
           "children": null
+        },
+        {
+          "link": "i-i-s-bekap-4-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "Должности",
+          "children": null
         }
       ]
     },
@@ -58,6 +65,21 @@
           "menuName": null,
           "caption": "Клиент",
           "title": "Клиент",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-товары",
+      "caption": "Справочник товары",
+      "title": "Справочник товары",
+      "children": [
+        {
+          "link": "i-i-s-bekap-4-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "Товар",
           "children": null
         }
       ]
